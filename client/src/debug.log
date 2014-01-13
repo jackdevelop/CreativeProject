@@ -1,0 +1,98 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics Family
+	gl.version: 3.1.0 - Build 8.15.10.2827
+	gl.max_texture_size: 8192
+	gl.max_texture_units: 16
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: E:\cocos2d-x+lua\lua\item\engin\git\quick-cocos2d-x\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 29
+------------------------------------------------
+LOAD LUA FILE: F:/workspace/lua/Game_client//src/scripts/main.lua
+------------------------------------------------
+lua_loadChunksFromZIP() - load zip file: F:\workspace\lua\Game_client\src\res/script/framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 54
+[0.1142] [INFO] 
+[0.1145] [INFO] # DEBUG                        = 1
+[0.1150] [INFO] #
+[0.1155] [INFO] # device.platform              = windows
+[0.1158] [INFO] # device.model                 = unknown
+[0.1163] [INFO] # device.language              = cn
+[0.1167] [INFO] # device.writablePath          = F:\workspace\lua\Game_client\\src\
+[0.1176] [INFO] # device.cachePath             = F:\workspace\lua\Game_client\\src\
+[0.1183] [INFO] # device.directorySeparator    = \
+[0.1186] [INFO] # device.pathSeparator         = ;
+[0.1191] [INFO] #
+[0.1213] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[0.1216] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.1220] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.1226] [INFO] # display.widthInPixels        = 960.00
+[0.1233] [INFO] # display.heightInPixels       = 640.00
+[0.1245] [INFO] # display.contentScaleFactor   = 1.00
+[0.1250] [INFO] # display.width                = 960.00
+[0.1255] [INFO] # display.height               = 640.00
+[0.1260] [INFO] # display.cx                   = 480.00
+[0.1275] [INFO] # display.cy                   = 320.00
+[0.1280] [INFO] # display.left                 = 0.00
+[0.1284] [INFO] # display.right                = 960.00
+[0.1289] [INFO] # display.top                  = 640.00
+[0.1294] [INFO] # display.bottom               = 0.00
+[0.1298] [INFO] # display.c_left               = -480.00
+[0.1303] [INFO] # display.c_right              = 480.00
+[0.1307] [INFO] # display.c_top                = 320.00
+[0.1311] [INFO] # display.c_bottom             = -320.00
+[0.1314] [INFO] #
+[0.1484] [INFO] Scene "BaseScene:onEnter()"
+[1.6661] ----------------------------------------
+[1.6664] LUA ERROR: [string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: attempt to call field 'pixels' (a nil value)
+
+[1.6673] 
+stack traceback:
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: in function 'setOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:302: in function 'moveOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:354: in function <[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:330>
+[1.6686] ----------------------------------------
+[1.7541] ----------------------------------------
+[1.7545] LUA ERROR: [string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: attempt to call field 'pixels' (a nil value)
+
+[1.7553] 
+stack traceback:
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: in function 'setOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:302: in function 'moveOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:354: in function <[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:330>
+[1.7564] ----------------------------------------
+[1.7571] ----------------------------------------
+[1.7575] LUA ERROR: [string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:362: attempt to index global 'Math2d' (a nil value)
+
+[1.7586] 
+stack traceback:
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:362: in function <[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:330>
+[1.7592] ----------------------------------------
+[4.4850] ----------------------------------------
+[4.4854] LUA ERROR: [string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: attempt to call field 'pixels' (a nil value)
+
+[4.4862] 
+stack traceback:
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:251: in function 'setOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/util/MapCamera.lua"]:302: in function 'moveOffset'
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:354: in function <[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:330>
+[4.4871] ----------------------------------------
+[4.5936] ----------------------------------------
+[4.5941] LUA ERROR: [string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:362: attempt to index global 'Math2d' (a nil value)
+
+[4.5953] 
+stack traceback:
+	[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:362: in function <[string "F:/workspace/lua/Game_client//src/scripts/engin/mvcs/view/BaseScene.lua"]:330>
+[4.5960] ----------------------------------------
+[5.5271] [INFO] Scene "BaseScene:onExit()"
+cocos2d: CCTextureCache: texture: cc_fps_images
+cocos2d: CCTextureCache: texture: cc_2x2_white_image
